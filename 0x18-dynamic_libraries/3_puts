@@ -1,0 +1,15 @@
+#include "holberton.h"
+
+/**
+ * _puts - Prints a string to standard output
+ *
+ * @string: String to be printed to standard output
+ *
+ * Return: Always void
+ */
+void _puts(char *string)
+{
+    while (*string)
+        _putchar(*string++);
+    _putchar('\n');
+}
